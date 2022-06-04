@@ -1,7 +1,7 @@
 let publicPath = '/'
 
 if (process.env.NODE_ENV === 'ghpages') {
-  publicPath = '/anime-quiz/'
+  publicPath = '/Anime-Music-Quiz/'
 }
 else if (process.env.NODE_ENV === 'production') {
   publicPath = './'
